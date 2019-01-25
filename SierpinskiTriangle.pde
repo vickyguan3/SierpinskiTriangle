@@ -15,7 +15,7 @@ public void sierpinski(int x, int y, int len)
 {
 	if (len <= 25){
 		stroke(255);
-		fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),200);
+		fill(255);
 		triangle(x,y,x+len,y,x+len/2,y-len);
 	}
 	else
